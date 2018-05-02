@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node Index.js"
   },
+  "engines": {
+    "npm": "5.6.1"
+  },
   "author": "yNerdSz",
   "license": "MIT",
   "dependencies": {
