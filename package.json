@@ -1,0 +1,14 @@
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "description": "Shelect Bot",
+  "main": "Index.js",
+  "scripts": {
+    "start": "node Index.js"
+  },
+  "author": "yNerdSz",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "11.3.0"
+  }
+}
