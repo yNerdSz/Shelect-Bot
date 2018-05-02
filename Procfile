@@ -1,1 +1,1 @@
-worker: node Index.js
+shelect-js: node "Index.js"
