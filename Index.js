@@ -41,4 +41,18 @@ bot.on("message", async message => {
 
 });
 
+
+bot.on("guildCreate", guild => {
+   const entrei = new Discord.RichEmbed()
+      .setAuthor(`${guild.name} | Adicionado`)
+      .setDescription(`Entrei no servidor **${guild.name}** (id: ${guild.id})`)
+      .addField("Membros", `Com **${guild.memberCount}** membros`)
+      .addField("Dono", `${guild.owner} (ID: ${guild.owner.id})`)
+      .setTimestamp()
+      .setColor("00e7ff")
+
+  
+   client.channels.get("429844744110211072").send(entrei);
+});
+
 bot.login(process.env.Token);
