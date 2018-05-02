@@ -1,7 +1,7 @@
 {
-  "name": "testes",
+  "name": "shelect-js",
   "version": "1.0.0",
-  "description": "Shelect Bot",
+  "description": "shelect-js",
   "main": "Index.js",
   "scripts": {
     "start": "node Index.js"
@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "11.3.0",
-    "npm": "5.6.0"
+    "npm": "5.7.1"
   }
 }
