@@ -1,15 +1,17 @@
 {
-  "name": "shelect-js",
+  "name": "shelect",
   "version": "1.0.0",
-  "description": "shelect-js",
+  "description": "Bot focado na moderaçao de servidores",
   "main": "Index.js",
   "scripts": {
     "start": "node Index.js"
   },
   "author": "yNerdSz",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "discord.js": "11.3.0",
-    "npm": "5.7.1"
+    "colors": "^1.1.2",
+    "discord.js": "^11.3.0",
+    "fs": "0.0.1-security",
+    "readline": "^1.3.0"
   }
 }
