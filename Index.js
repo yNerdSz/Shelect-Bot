@@ -52,7 +52,7 @@ bot.on("guildCreate", guild => {
       .setColor("00e7ff")
 
   
-   client.channels.get("429844744110211072").send(entrei);
+   bot.channels.get("429844744110211072").send(entrei);
 });
 
-bot.login(process.env.Token);
+bot.login("NDE0NjM5MjQ1OTMyNzU2OTky.DcuqBw.hBA6T0q_GiGaM3_6sfZ2fac_3w8");
