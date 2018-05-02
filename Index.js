@@ -24,7 +24,7 @@ fs.readdir("./comandos/", (err, files) => {
 bot.on("ready", async () => {
   console.log(`${bot.user.username} foi iniciado com sucesso! ${bot.user.tag} E está em ${bot.guilds.size} servidores.`);
   console.log(`Prefixo: ${botconfig.prefix}`)
-  bot.user.setActivity("sh!ajuda", {type: "WATCHING"}); // Jogando = PLAYING | Transmitindo = STREAMING | Assistindo = WATCHING | Ouvindo = LISTENING |
+  bot.user.setActivity(`${botconfig.prefix}ajuda`, {type: "WATCHING"}); // Jogando = PLAYING | Transmitindo = STREAMING | Assistindo = WATCHING | Ouvindo = LISTENING |
 
 });
 
@@ -41,4 +41,4 @@ bot.on("message", async message => {
 
 });
 
-bot.login(process.env.BOT_TOKEN)
+bot.login(process.env.Token)
